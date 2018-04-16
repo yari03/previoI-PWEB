@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #AAB7B8;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-family: 'East Sea Dokdo', cursive;
+	color: #AD3B2B;
+	padding: 2%;
+}
+
+.contenedor{
+	width: 80%;
+	max-width: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	margin: 20px 0;
+}
+
+header nav{
+	width: 100%;
+	background: #2E4053;	
+}
+
+header nav ul{
+	overflow: hidden;
+	list-style: none;
+}
+
+.lis ul{
+	overflow: hidden;
+	list-style: none;
+}
+
+header nav ul li{
+	float: left;
+}
+
+header nav ul li a{
+	color: #CACFD2;
+	padding: 20px;
+	text-decoration: none;
+	display: block;
+}
+
+.lis ul li a{
+	color: #CACFD2;
+	padding: 20px;
+	text-decoration: none;
+	display: block;
+}
+
+header nav ul li a:hover{
+	background: #784212;
+}
+
+.lis ul li a:hover{
+	background: #784212;
+}
+
+header nav ul li span{
+	margin-right: 10px;
+}
+
+.lis ul li span{
+	margin-right: 10px;
+}
+
+.menu_bar{
+	display: none;
+}
+
+.encabezado{
+	text-align: center;
+	background: #515A5A;
+	width: 100%;
+	padding: 0;
+	font-size: 150%;
+}
+
+@media screen and (max-width: 800px) {
+
+	header nav{
+		width: 60%;
+		height: 100%;
+		margin: 0;
+		position: fixed;
+	}
+
+	header nav ul li{
+		display: block;
+		float: none;
+		border-bottom:1px solid rgba(255, 255, 255, .3);
+	}
+
+	.menu_bar{
+		display:block;
+		width: 100%;
+		background: #ccc;
+	}
+
+	.menu_bar .bt-menu{
+		display: block;
+		padding: 20px;
+		background: #2E4053;
+		color: #CACFD2;
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
+
+.main{
+	width: 68%;
+	height: auto;
+	float: left;
+}
+
+.main img{
+	width: 100%;
+}
+
+aside{
+	width: 30%;
+	float: left;
+	background: #979A9A;
+	margin-top: 0;
+	margin-left: 2%;
+}
+
+p{
+	text-align: justify;
+}
+
+.main_login{
+	background: #979A9A;
+	color: #1C2833;
+	width: 100%;
+	text-align: center;	
+}
+
+form{
+	width: 80%;
+	border: 3px solid #ccc;
+	margin: 5%;
+	padding: 20px;
+
+}
+
+label{
+	display: block;
+	width: 100%;
+}
+
+input:focus{
+	border:2px solid #1668c4; 
+}
+
+input[type="submit"]{
+	margin-bottom: 0;
+	background: #1668c4;
+	color: #fff;
+	border: none;
+}
+
+input, textarea, select{ 
+	margin-bottom: 20px;
+	width: 50%;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+textarea{
+	resize: vertical;
+	max-height: 300px;
+}
+
+.btseleccion label{
+	width: 70%;
+}
+
+.btseleccion input{
+	width: 30%;
+}
+
+.lis{
+	
+}
+
+footer{
+	background: #2E4053;
+	padding: 20px;
+	text-align: center;
+	color: #CACFD2;
+	margin: 20px 0;
+	float: left;
+	width: 100%;
+}
+
+
+
